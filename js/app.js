@@ -115,7 +115,7 @@ $(function () {
       function getRandomNumber(min, max) {
         return Math.trunc(Math.random() * (max - min + 1) + min);
       }
-      let stone = $('<img src="../media/images/stone.png">').addClass('stone');
+      let stone = $('<img src="media/images/stone.png">').addClass('stone');
       $('.game').append(stone);
       stone.css({
         left: `${getRandomNumber(
