@@ -1,4 +1,4 @@
-# Car on a road
+# Car on the road
 
 Game with the car aimed to avoid stones on the road. [View deployment.](https://sashapt.github.io/Car/)
 
