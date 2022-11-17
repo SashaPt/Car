@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Car on a road</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Car on a road</h1>
+      <div class="level">
+        <h2>Select Level</h2>
+        <button data-speed="1">Level 1</button>
+        <button data-speed="2">Level 2</button>
+        <button data-speed="3">Level 3</button>
+      </div>
+      <button class="play" disabled="true">Play Game</button>
+    </div>
+    <div class="screen">
+      <div class="game">
+        <div class="road"></div>
+        <div class="road"></div>
+        <img class="car" src="./media/images/car1.png" alt="car" />
+        <h2 class="game-over">GAME OVER</h2>
+      </div>
+      <div class="button-container">
+        <button class="start">Start</button>
+        <button class="pause">Pause</button>
+      </div>
+    </div>
+    <div class="screen">
+      <h2 class="finish">GAME OVER</h2>
+      <div class="score">
+        <h2>Results:</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Level</th>
+              <th>Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="level"></td>
+              <td id="score"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <button class="new-game">New game</button>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
