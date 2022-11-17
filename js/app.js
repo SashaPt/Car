@@ -41,7 +41,7 @@ $(function () {
       $(document).on('keydown', moveCar);
 
       if (!roadTimer) {
-        roadTimer = setInterval(moveRoad, 20 / (level * level));
+        roadTimer = setInterval(moveRoad, 40 / (level * level));
         timers.push(roadTimer);
 
         stoneCreateTimer = setInterval(
@@ -50,7 +50,7 @@ $(function () {
         );
         timers.push(stoneCreateTimer);
 
-        stoneMoveTimer = setInterval(moveStones, 20 / (level * level));
+        stoneMoveTimer = setInterval(moveStones, 40 / (level * level));
         timers.push(stoneMoveTimer);
 
         $('.pause').removeAttr('disabled');
