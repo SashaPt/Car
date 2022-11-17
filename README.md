@@ -1,6 +1,6 @@
 # Car on a road
 
-Game with the car aimed to avoid stones on the road.![View deployment.](https://sashapt.github.io/Car/)
+Game with the car aimed to avoid stones on the road. [View deployment.](https://sashapt.github.io/Car/)
 
 ## Description
 - game level is selected (from 1 to 3);
